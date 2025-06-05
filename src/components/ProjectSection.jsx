@@ -6,7 +6,7 @@ const projects = [
         title: "Family Health Care Service Management System",
         description:"A user-friendly healthcare management application designed to track family health records. The system supports CRUD operations (Create, Read, Update, Delete) for efficient data handling, with a clean dashboard for easy navigation. Built to streamline healthcare service coordination for families.",
         tech: "Frontend : HTML/CSS/JS backend: Node js",
-        image: "/public/projects/HealthCareManagementSys.png",
+        image: "/projects/HealthCareManagementSys.png",
         githubUrl : "https://github.com/anjulanadeeshan/FamilyHealthCareSys"
     },
     {
@@ -14,14 +14,14 @@ const projects = [
         title: "Movie Streaming Site",
         description:"A dynamic movie platform showcasing a curated list of films (e.g., Lilo & Stitch, Mission: Impossible). The interface allows users to browse titles by category or search for specific movies. Designed for entertainment enthusiasts, this project demonstrates skills in UI design and content organization.",
         tech: "Frontend: Vue + API integration .",
-        image: "/public/projects/MovieAPP.jpeg",
+        image: "/projects/MovieAPP.jpeg",
         githubUrl : "https://github.com/anjulanadeeshan/MovieApp"
     },{
         id:3,
         title: "YouTube API Integrationm",
         description:"A web app leveraging the YouTube Data API to fetch and display web development tutorials. Users can search for topics and play videos directly. Includes filters for free courses and certifications, offering a resource hub for learners.",
         tech: "YouTube Data API.",
-        image: "/public/projects/YoutubeAPI.jpeg",
+        image: "/projects/YoutubeAPI.jpeg",
         githubUrl : "https://github.com/anjulanadeeshan/youtube_vedio"
     }
 ]
