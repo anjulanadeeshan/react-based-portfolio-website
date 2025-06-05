@@ -8,26 +8,26 @@ export const ContactSection = () => {
                     Get In <span className="text-primary">Touch</span>
                 </h2>
 
-                <div className="grid md:grid-cols-3 gap-8 text-center">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 text-center">
                     {/* Email */}
-                    <div className="flex flex-col items-center bg-white shadow-md rounded-lg p-6">
+                    <div className="flex flex-col items-center bg-white shadow-md rounded-xl p-6">
                         <Mail className="h-8 w-8 text-primary mb-2" />
                         <h3 className="font-semibold text-black text-lg">Email</h3>
-                        <p className="font-semibold text-black text-lg">anjulanadeeshan2002@gmail.com</p>
+                        <p className="text-black break-all">anjulanadeeshan2002@gmail.com</p>
                     </div>
 
                     {/* Phone */}
-                    <div className="flex flex-col items-center bg-white shadow-md rounded-lg p-6">
+                    <div className="flex flex-col items-center bg-white shadow-md rounded-xl p-6">
                         <Phone className="h-8 w-8 text-primary mb-2" />
                         <h3 className="font-semibold text-black text-lg">Phone</h3>
-                        <p className="font-semibold text-black text-lg">+94 985 1619</p>
+                        <p className="text-black">+94 985 1619</p>
                     </div>
 
                     {/* Location */}
-                    <div className="flex flex-col items-center bg-white shadow-md rounded-lg p-6">
+                    <div className="flex flex-col items-center bg-white shadow-md rounded-xl p-6">
                         <MapPin className="h-8 w-8 text-primary mb-2" />
                         <h3 className="font-semibold text-black text-lg">Location</h3>
-                        <p className="font-semibold text-black text-lg">Gampaha, Sri Lanka</p>
+                        <p className="text-black">Gampaha, Sri Lanka</p>
                     </div>
                 </div>
             </div>
